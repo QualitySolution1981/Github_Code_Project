@@ -27,6 +27,7 @@ public class Saucedemo_Login {
         
 		driver.manage().window().maximize();
 		driver.get("https://demoqa.com/webtables");
+		driver.navigate().refresh();
 	
 	  }
 	@Test
